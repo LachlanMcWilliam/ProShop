@@ -17,7 +17,7 @@ build:
           - src: '**/*.js'
             dest: .
     - image: lachlanmcwilliam/proshop-backend
-      context: backend
+      context: backend/products-service
       docker:
         dockerfile: Dockerfile
       sync:
