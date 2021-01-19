@@ -16,6 +16,8 @@ spec:
       - name: proshop-backend
         image: lachlanmcwilliam/proshop-backend
         env:
+          - name: MONGO_URI
+            value: "mongodb://products-mongo-srv:27017/auth"
           - name: SERVICE_PORT
             value: "3000"
 ---
