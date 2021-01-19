@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { app } from "./server.js";
+import { app } from "./app.js";
 
 const start = async () => {
   if (!process.env.SERVICE_PORT) {
